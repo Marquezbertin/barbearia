@@ -13,12 +13,12 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark" role="banner">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="img/logo.png" alt="Voce Shop" class="img-fluid" style="max-height: 50px;">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -75,14 +75,14 @@
         <section id="galeria" class="py-5 bg-light">
             <h2 class="text-center text-dark mb-4">Galeria de Fotos</h2>
             <div class="row g-3">
-                <div class="col-6 col-md-3"><img src="uploads/galeria/1.jpg" class="img-fluid rounded"></div>
-                <div class="col-6 col-md-3"><img src="uploads/galeria/2.jpg" class="img-fluid rounded"></div>
-                <div class="col-6 col-md-3"><img src="uploads/galeria/3.jpg" class="img-fluid rounded"></div>
-                <div class="col-6 col-md-3"><img src="uploads/galeria/4.jpg" class="img-fluid rounded"></div>
-                <div class="col-6 col-md-3"><img src="uploads/galeria/5.jpg" class="img-fluid rounded"></div>
-                <div class="col-6 col-md-3"><img src="uploads/galeria/6.jpg" class="img-fluid rounded"></div>
-                <div class="col-6 col-md-3"><img src="uploads/galeria/7.jpg" class="img-fluid rounded"></div>
-                <div class="col-6 col-md-3"><img src="uploads/galeria/8.jpg" class="img-fluid rounded"></div>
+                <div class="col-6 col-md-3"><img src="uploads/galeria/1.jpg" class="img-fluid rounded" alt="Galeria 1"></div>
+                <div class="col-6 col-md-3"><img src="uploads/galeria/2.jpg" class="img-fluid rounded" alt="Galeria 2"></div>
+                <div class="col-6 col-md-3"><img src="uploads/galeria/3.jpg" class="img-fluid rounded" alt="Galeria 3"></div>
+                <div class="col-6 col-md-3"><img src="uploads/galeria/4.jpg" class="img-fluid rounded" alt="Galeria 4"></div>
+                <div class="col-6 col-md-3"><img src="uploads/galeria/5.jpg" class="img-fluid rounded" alt="Galeria 5"></div>
+                <div class="col-6 col-md-3"><img src="uploads/galeria/6.jpg" class="img-fluid rounded" alt="Galeria 6"></div>
+                <div class="col-6 col-md-3"><img src="uploads/galeria/7.jpg" class="img-fluid rounded" alt="Galeria 7"></div>
+                <div class="col-6 col-md-3"><img src="uploads/galeria/8.jpg" class="img-fluid rounded" alt="Galeria 8"></div>
             </div>
         </section>
 
@@ -92,13 +92,13 @@
                 <div class="col-md-6">
                     <form>
                         <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Nome" required>
+                            <input type="text" class="form-control" placeholder="Nome" required aria-label="Nome">
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="E-mail" required>
+                            <input type="email" class="form-control" placeholder="E-mail" required aria-label="E-mail">
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control" placeholder="Mensagem" rows="3" required></textarea>
+                            <textarea class="form-control" placeholder="Mensagem" rows="3" required aria-label="Mensagem"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary w-100">Enviar</button>
                     </form>
